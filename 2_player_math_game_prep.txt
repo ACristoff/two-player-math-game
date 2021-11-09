@@ -1,0 +1,30 @@
+# Create a 2-Player math game where players take turns to answer simple math addition problems. 
+# A new math question is generated for each turn by picking two numbers between 1 and 20. 
+# The player whose turn it is is prompted the question and must answer correctly or lose a life.
+
+##Nouns
+#Players
+  #Lives 
+#Questions
+
+#Players take turns answering questions, and have lives
+#Questions are generated as simple arithmetic questions and require prompts to proceed
+
+#Game
+  #Start/Stop
+  #Change score
+  #Current_player
+  #Output score
+
+#Player methods
+  #Current lives
+  #Lose a life
+
+#Questions
+  #Generate question
+  #Prompt
+  #Validate answer
+
+# 2 player classes will be initialized, 1 and 2 with 3 lives
+
+# A question will be generated and prompt specific player for the answer, when answered the score/lives will be updated accordingly and the score will be printed
